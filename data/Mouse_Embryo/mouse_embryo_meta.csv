@@ -1,0 +1,41 @@
+,cell_name,cell_type,timepoints
+0,2_cell_R1,2-cell,2
+1,2_cell_R2,2-cell,2
+2,2_cell_R3,2-cell,2
+3,2_cell_R4,2-cell,2
+4,4_cell_R1,4-cell,3
+5,4_cell_R2,4-cell,3
+6,4_cell_R3,4-cell,3
+7,4_cell_R4,4-cell,3
+8,6.5_day_epiblast_R1,6.5_day_epiblast,7
+9,6.5_day_extraembryonic_ectoderm_R1,6.5_day_extraembryonic_ectoderm,7
+10,6.6_day_epiblast_R1,6.6_day_epiblast,8
+11,6.6_day_extraembryonic_ectoderm_R1,6.6_day_extraembryonic_ectoderm,8
+12,8_cell_R1,8-cell,4
+13,8_cell_R2,8-cell,4
+14,8_cell_R3,8-cell,4
+15,MIIOocyte_R1,MII Oocyte,1
+16,MIIOocyte_R2,MII Oocyte,1
+17,inner_cell_mass_R1,Inner Cell Mass,6
+18,inner_cell_mass_R2,Inner Cell Mass,6
+19,inner_cell_mass_R3,Inner Cell Mass,6
+20,inner_cell_mass_R4,Inner Cell Mass,6
+21,morula_R1,Morula,5
+22,morula_R10,Morula,5
+23,morula_R11,Morula,5
+24,morula_R12,Morula,5
+25,morula_R13,Morula,5
+26,morula_R14,Morula,5
+27,morula_R15,Morula,5
+28,morula_R2,Morula,5
+29,morula_R3,Morula,5
+30,morula_R4,Morula,5
+31,morula_R5,Morula,5
+32,morula_R6,Morula,5
+33,morula_R7,Morula,5
+34,morula_R8,Morula,5
+35,morula_R9,Morula,5
+36,trophoblast_R1,Trophoblast,6
+37,trophoblast_R2,Trophoblast,6
+38,trophoblast_R3,Trophoblast,6
+39,trophoblast_R4,Trophoblast,6
