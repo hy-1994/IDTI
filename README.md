@@ -9,7 +9,7 @@ We present IDTI based on the increment of diversity for trajectory inference fro
 
 The scripts were written in Python language.
 
-To run the scripts, you need several python packages, as follow:
+To run the scripts, you need several python packages, as follows:
 
 - numpy 
 
@@ -29,7 +29,7 @@ To run the scripts, you need several python packages, as follow:
 
   ​
 
-Recommended installation command
+Recommended install command:
 
 conda create -n idti -c conda-forge -c bioconda  python=3.7 scanpy matplotlib scikit-learn pygraphviz
 
@@ -44,8 +44,8 @@ The folder "test_data" contains test data, which is the simulated time-series sc
 2. Subfile "sim_metadata" is the metadata of simulated data.
 3. Subfile "sim_data.h5ad" is the H5AD file of simulated data.
 
-The folder "script" contains main scripts.
-"core.py" is uesed to trajectory inference of IDTI.
+The folder "script" contains main script.
+"core.py" is used for IDTI cell state trajectory inference.
 
 ### References
 
