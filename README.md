@@ -45,9 +45,3 @@ The folder "test_data" contains test data, which is the simulated time-series sc
 The folder "script" contains main script.
 "core.py" is used for IDTI cell state trajectory inference.
 
-### References
-
-IDTI: An increment of diversity method for cell trajectory inference of time-series scRNA-seq data
-
-Contact: 31709150@mail.imu.edu.cn
-
