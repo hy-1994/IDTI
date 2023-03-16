@@ -11,19 +11,29 @@ The scripts were written in Python language.
 
 To run the scripts, you need several python packages, as follow:
 
-import os  
-import numpy as np  
-import pandas as pd  
-import scanpy as sc   
-import anndata as ad  
-import math  
-import operator  
-import collections  
-import networkx as nx  
-import matplotlib.pyplot as plt  
-from collections import Counter  
-from sklearn.preprocessing import MinMaxScaler  
-from networkx.drawing.nx_agraph import graphviz_layout
+- numpy 
+
+- pandas 
+
+- scanpy
+
+- anndata 
+
+- networkx
+
+- matplotlib
+
+- sklearn
+
+- pygraphviz
+
+  ​
+
+Recommended installation command
+
+conda create -n idti -c conda-forge -c bioconda  python=3.7 scanpy matplotlib scikit-learn pygraphviz
+
+
 
 ### Usage
 
