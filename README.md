@@ -29,7 +29,7 @@ from networkx.drawing.nx_agraph import graphviz_layout
 
 There are two main folders:
 
-The folder "data" contains test data, which is the simulated time-series scRNA-seq data.
+The folder "test_data" contains test data, which is the simulated time-series scRNA-seq data.
 1. Subfile "sim_counts.csv" is the gene expression matrix of simulatede data.
 2. Subfile "sim_metadata" is the metadata of simulatede data.
 3. Subfile "sim_data.h5ad" is the H5AD file of simulatede data.
