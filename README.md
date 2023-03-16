@@ -33,8 +33,6 @@ Recommended install command:
 
 conda create -n idti -c conda-forge -c bioconda  python=3.7 scanpy matplotlib scikit-learn pygraphviz
 
-
-
 ### Usage
 
 There are two main folders:
