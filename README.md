@@ -30,9 +30,9 @@ from networkx.drawing.nx_agraph import graphviz_layout
 There are two main folders:
 
 The folder "test_data" contains test data, which is the simulated time-series scRNA-seq data.
-1. Subfile "sim_counts.csv" is the gene expression matrix of simulatede data.
-2. Subfile "sim_metadata" is the metadata of simulatede data.
-3. Subfile "sim_data.h5ad" is the H5AD file of simulatede data.
+1. Subfile "sim_counts.csv" is the gene expression matrix of simulated data.
+2. Subfile "sim_metadata" is the metadata of simulated data.
+3. Subfile "sim_data.h5ad" is the H5AD file of simulated data.
 
 The folder "script" contains main scripts.
 "core.py" is uesed to trajectory inference of IDTI.
