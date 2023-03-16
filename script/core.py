@@ -144,7 +144,7 @@ class IdtiData(object):                 #创建IdtiData类   类定义不能为�
         elif not os.path.exists(Output_Dir+Output_Name):
             os.makedirs(Output_Dir+Output_Name)
         else:
-            print(f"The result folder {Output_Dir+Output_Name} exists! IDTI overwrite it. To avoid the overwriting, try the -o parameter.")
+            print(f"The result folder {Output_Dir+Output_Name} exists! IDTI overwrite it.")
 
         if not os.path.exists(Output_Dir+Output_Name+"/"+"SupplementaryResults"):
             os.makedirs(Output_Dir+Output_Name+"/"+"SupplementaryResults")
@@ -390,6 +390,9 @@ class IdtiData(object):                 #创建IdtiData类   类定义不能为�
 
     
     def plot_umap(self,**kwargs):
+        print(f'calculate ID and output results...')
+
+        
         sc.pp.pca(adata)  
         sc.pp.neighbors(adata)
         sc.tl.umap(adata)
@@ -460,11 +463,9 @@ class IdtiData(object):                 #创建IdtiData类   类定义不能为�
         fig.savefig(output_path+f"{output_name}_Topology.tif", bbox_inches='tight', pil_kwargs={"compression": "tiff_lzw"}, dpi=600)  
         ouput_path=self.__Output_Dir+self.__Output_Name+"/SupplementaryResults/"
         output_name=self.__Output_Name
-        np.savetxt(ouput_path+f"{output_name}_adjacency_martrix.txt",np.array(nx.adjacency_matrix(G).todense()), fmt='%d', delimiter='   ')
+        np.savetxt(ouput_path+f"{output_name}_adjacency_martrix.txt",np.array(nx.to_numpy_matrix(G)), fmt='%d', delimiter='   ')
+                                                            # nx.adjacency_matrix.todense(),,,  nx.to_numpy_matrix(G)
 
-        print(f'calculate ID and output results...')
-        print()
-   
 
     def run_idti(self):
 
