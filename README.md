@@ -1,4 +1,9 @@
 # IDTI: An increment of diversity method for cell trajectory inference of time-series scRNA-seq data
 
+## Overview of IDTI:
 
-![image-20220808170723505](fig1.png)
+![https://github.com/hy-1994/IDTI/blob/main/workflow.png]()
+
+
+
+# 
