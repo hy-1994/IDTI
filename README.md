@@ -4,6 +4,7 @@
 
 We present IDTI based on the increment of diversity for trajectory inference from time-series scRNA-Seq data, which combines time series information and increment of diversity method to infer cell state trajectory.
 
+
 ### Systems Requirements
 
 The scripts were written in Python language.
@@ -41,3 +42,4 @@ The folder "script" contains main scripts.
 IDTI: An increment of diversity method for cell trajectory inference of time-series scRNA-seq data
 
 Contact: 31709150@mail.imu.edu.cn
+
